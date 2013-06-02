@@ -1,0 +1,5 @@
+#!/system/bin/sh
+#
+# WSX-TEAM bmlunlock boot.img
+#
+/sbin/bmlunlock

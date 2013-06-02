@@ -1,0 +1,261 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED015</CSCEdition>
+    <Country>PHILIPPINES</Country>
+    <CountryISO>PH</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>SMA</SalesCode>
+    <NbNetworkInfo>3</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51518</MCCMNC>
+      <NetworkName>red mobile</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51503</MCCMNC>
+      <NetworkName>Smart</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51505</MCCMNC>
+      <NetworkName>SUN</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <NbNetworkLock>3</NbNetworkLock>
+        <NetworkLock>51518</NetworkLock>
+        <NetworkLock>51505</NetworkLock>
+        <NetworkLock>51503</NetworkLock>
+      </Security>
+      <Network>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911, 112</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>english_philippines</DefLanguage>
+        <DefLanguageNoSIM>english_philippines</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Display>
+        <NbWallpaper>6</NbWallpaper>
+        <Wallpaper src="/Customer/SMA/Wallpaper/new smart 480 x 320.jpg" width="480" height="320">
+          <Position>1</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>						<Wallpaper src="/system/wallpaper/drawable/001_480X320.jpg" width="480" height="320" >          <Position>2</Position>          <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/002_480x320.jpg" width="480" height="320" >          <Position>3</Position>          <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/003_480x320.jpg" width="480" height="320">          <Position>4</Position>           <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/004_480x320.png" width="480" height="320">          <Position>5</Position>            <FileType>PNG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/005_480x320.png" width="480" height="320" >          <Position>6</Position>           <FileType>PNG</FileType>        </Wallpaper>    
+      </Display>
+      <Sound>
+        <NbMessageTone>1</NbMessageTone>
+        <MessageTone src="/Customer/SMA/Messagetone/NETPHONEMESSAGEALERT.mp3" default="true">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </MessageTone>
+        <NbRingTone>1</NbRingTone>
+        <RingTone src="/Customer/SMA/Ringtone/NETPHONERINGTONE.mp3">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </RingTone>
+      </Sound>
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>manual</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>12</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>SMART</BookmarkName>
+        <URL>http://m.smart.com.ph</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>MySandbox</BookmarkName>
+        <URL>http://m.mysandbox.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Music Store</BookmarkName>
+        <URL>http://m.smart.com.ph/music</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>GAME STATION</BookmarkName>
+        <URL>http://m.smart.com.ph/games</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>CINEMA CLUB</BookmarkName>
+        <URL>http://m.smart.com.ph/cinemaclub</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>News and Info</BookmarkName>
+        <URL>http://m.smart.com.ph/news</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Entertainment</BookmarkName>
+        <URL>http://m.smart.com.ph/entertainment</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>TV&amp;Videos</BookmarkName>
+        <URL>http://m.smart.com.ph/videos</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Mail &amp; Chat</BookmarkName>
+        <URL>http://m.smart.com.ph/messaging</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Lifestyle</BookmarkName>
+        <URL>http://m.smart.com.ph/lifestyle</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Sports</BookmarkName>
+        <URL>http://m.smart.com.ph/sports</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Mobile Sites</BookmarkName>
+        <URL>http://m.smart.com.ph/mobsites</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>3</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>red mobile</NetworkName>
+        <ProfBrowser>RED INTERNET</ProfBrowser>
+        <ProfMMS>RED MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Smart</NetworkName>
+        <ProfBrowser>Smart Internet</ProfBrowser>
+        <ProfMMS>SmartMMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SUN</NetworkName>
+        <ProfBrowser>SUN INTERNET</ProfBrowser>
+        <ProfMMS>SUN MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>6</NbProfile>
+      <Profile>
+        <NetworkName>red mobile</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>RED INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>0.0.0.0</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>redinternet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>red mobile</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>RED MMS</ProfileName>
+        <URL>http://10.102.61.193:8002/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>10.138.3.35</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>redmms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Smart</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Smart Internet</ProfileName>
+        <URL>http://m.smart.com.ph</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Smart</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>SmartMMS</ProfileName>
+        <URL>http://10.102.61.238:8002</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>10.102.61.46</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SUN</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>SUN INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>minternet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SUN</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>SUN MMS</ProfileName>
+        <URL>http://mmscenter.suncellular.com.ph</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>202.138.159.78</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

@@ -1,0 +1,9 @@
+#!/system/bin/sh
+#
+# Mount swap partition on boot
+# Print WSX-Team Print Starup
+#
+swapon /dev/block/mmcblk0p3
+sysctl -w vm.swappiness=60
+sysctl -p
+sleep 1

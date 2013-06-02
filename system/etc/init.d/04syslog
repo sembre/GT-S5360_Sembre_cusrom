@@ -1,0 +1,6 @@
+#!/system/bin/sh
+#
+# Print WSX-Team Startup Informations
+#
+touch /data/log/syslog
+syslogd -O /data/log/syslog

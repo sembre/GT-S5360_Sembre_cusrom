@@ -1,0 +1,6 @@
+#!/system/bin/sh
+#
+# Print WSX-Team Startup Informations
+#
+touch /data/local/tmp/init.d.log
+echo "done" >> /data/local/tmp/init.d.log

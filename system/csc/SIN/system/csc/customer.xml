@@ -1,0 +1,165 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED005</CSCEdition>
+    <Country>SINGAPORE</Country>
+    <SalesCode>SIN</SalesCode>
+    <NbNetworkInfo>2</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52501</MCCMNC>
+      <NetworkName>SingTel</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52502</MCCMNC>
+      <NetworkName>SingTel</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+	
+	<Display>
+        <NbWallpaper>5</NbWallpaper>
+		<Wallpaper src="/system/wallpaper/drawable/001_480X320.jpg" width="480" height="320" >
+          <Position>1</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/002_480x320.jpg" width="480" height="320" >
+          <Position>2</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/003_480x320.jpg" width="480" height="320">
+          <Position>3</Position> 
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/004_480x320.png" width="480" height="320">
+          <Position>4</Position>  
+          <FileType>PNG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/005_480x320.png" width="480" height="320" >
+          <Position>5</Position> 
+          <FileType>PNG</FileType>
+        </Wallpaper>
+    </Display>
+	
+      <Network>
+        <NbFastDormancy>1</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>SingTel</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+        </FastDormancy>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911, 112</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>on</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>english</DefLanguage>
+        <DefLanguageNoSIM>english</DefLanguageNoSIM>
+      </Phone>
+      <Security />
+    </Main>
+    <Messages>
+      <NbVoicemail>1</NbVoicemail>
+      <Voicemail>
+        <NetworkName>default</NetworkName>
+        <TelNum>1389</TelNum>
+      </Voicemail>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>6</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>SingTel IDEAS</BookmarkName>
+        <URL>http://www.ideas.singtel.com/mobile</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Mobile Wikipedia</BookmarkName>
+        <URL>http://singtel.instinct.co.nz/wiki/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>ONE.MOTORING</BookmarkName>
+        <URL>http://imode.onemotoring.com.sg</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>eBay Mobile</BookmarkName>
+        <URL>http://wap.ebay.com.sg/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Windows Live for Mobile</BookmarkName>
+        <URL>http://mobile.live.com/?lc=en-sg</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Facebook Mobile</BookmarkName>
+        <URL>http://iphone.facebook.com/</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>1</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SingTel</NetworkName>
+        <ProfBrowser>IDEAS E-mail</ProfBrowser>
+        <ProfMMS>IDEAS MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>2</NbProfile>
+      <Profile>
+        <NetworkName>SingTel</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>IDEAS MMS</ProfileName>
+        <URL>http://mms.singtel.com:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>165.21.42.84</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>e-ideas</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SingTel</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>IDEAS E-mail</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>e-ideas</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

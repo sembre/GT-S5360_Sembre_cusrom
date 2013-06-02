@@ -1,0 +1,203 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED006</CSCEdition>
+    <Country>SINGAPORE</Country>
+    <SalesCode>XSP</SalesCode>
+    <NbNetworkInfo>4</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52503</MCCMNC>
+      <NetworkName>SGP-M1-3GSM</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52501</MCCMNC>
+      <NetworkName>SingTel</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52502</MCCMNC>
+      <NetworkName>SingTel</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52505</MCCMNC>
+      <NetworkName>StarHub</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>		<Display>        <NbWallpaper>5</NbWallpaper>		<Wallpaper src="/system/wallpaper/drawable/001_480X320.jpg" width="480" height="320" >          <Position>1</Position>          <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/002_480x320.jpg" width="480" height="320" >          <Position>2</Position>          <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/003_480x320.jpg" width="480" height="320">          <Position>3</Position>           <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/004_480x320.png" width="480" height="320">          <Position>4</Position>            <FileType>PNG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/005_480x320.png" width="480" height="320" >          <Position>5</Position>           <FileType>PNG</FileType>        </Wallpaper>    </Display>
+      <Network>
+        <NbFastDormancy>3</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>SGP-M1-3GSM</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>SingTel</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>StarHub</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+        </FastDormancy>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911, 112</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>on</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>english</DefLanguage>
+        <DefLanguageNoSIM>english</DefLanguageNoSIM>
+      </Phone>
+      <Security />
+    </Main>
+    <Messages>
+      <SMS>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Connections>
+      <NbProfileHandle>3</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SingTel</NetworkName>
+        <ProfBrowser>IDEAS E-mail</ProfBrowser>
+        <ProfMMS>IDEAS MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SGP-M1-3GSM</NetworkName>
+        <ProfBrowser>M1 E-mail</ProfBrowser>
+        <ProfMMS>M1_MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>StarHub</NetworkName>
+        <ProfBrowser>Gee!</ProfBrowser>
+        <ProfMMS>Gee! MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>7</NbProfile>
+      <Profile>
+        <NetworkName>SingTel</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>IDEAS MMS</ProfileName>
+        <URL>http://mms.singtel.com:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>165.21.42.84</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>e-ideas</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SingTel</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>IDEAS E-mail</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>e-ideas</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SGP-M1-3GSM</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>M1 E-mail</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sunsurf</APN>
+          <UserId>65</UserId>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SGP-M1-3GSM</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>M1_MMS</ProfileName>
+        <URL>http://mmsgw:8002</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.14.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>miworld</APN>
+          <UserId>65</UserId>
+          <Password>user123</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>StarHub</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Gee!</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.12.1.2</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>shwap</APN>
+          <UserId>star</UserId>
+          <Password>hub</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>StarHub</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Gee! MMS</ProfileName>
+        <URL>http://mms.starhubgee.com.sg:8002/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.12.1.80</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>shmms</APN>
+          <UserId>star</UserId>
+          <Password>hub</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>StarHub</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>StarHub E-mail</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>shwap</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

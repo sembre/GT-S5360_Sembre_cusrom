@@ -1,0 +1,90 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <SettingsData>
+    <Use24HourFormat>24</Use24HourFormat>
+  </SettingsData>
+  <MMS>
+  	<repeat_notification>off</repeat_notification>
+  	<vibrate>off</vibrate>
+  	<enable_notifications>on</enable_notifications>
+  	<creation_mode>free</creation_mode>
+
+  </MMS>
+  <LatinIME>
+    <VibrateOn>on</VibrateOn>
+    <SoundOn>on</SoundOn>
+  </LatinIME>
+  <FMRadio>
+    <fmradio_region>Vietnam</fmradio_region>
+  </FMRadio>   
+  
+  <DefaultInputMethod>
+    <!-- com.samsung.sec.android.inputmethod.axt9 -->
+    <!-- Swype : com.swype.android.inputmethod -->
+    <!-- Android Keyboard : com.android.inputmethod.latin -->
+      <input_method>com.sec.android.inputmethod.axt9</input_method>
+  </DefaultInputMethod>  
+  
+  	<Launcher>
+		 <favorites>
+			<favorite_type>favorite</favorite_type>
+			<packageName>com.google.android.gm</packageName>
+			<className>com.google.android.gm.ConversationListActivityGmail</className>
+			<screen>0</screen>
+			<launcher_x>0</launcher_x>
+			<launcher_y>3</launcher_y>
+		 </favorites>
+		 <favorites>
+			<favorite_type>favorite</favorite_type>
+			<packageName>com.google.android.apps.maps</packageName>
+			<className>com.google.android.maps.MapsActivity</className>
+			<screen>0</screen>
+			<launcher_x>1</launcher_x>
+			<launcher_y>3</launcher_y>
+		 </favorites>
+		 <favorites>
+			<favorite_type>favorite</favorite_type>
+			<packageName>com.android.vending</packageName>
+			<className>com.android.vending.AssetBrowserActivity</className>
+			<screen>0</screen>
+			<launcher_x>2</launcher_x>
+			<launcher_y>3</launcher_y>
+		 </favorites>
+		 <favorites>
+			<favorite_type>favorite</favorite_type>
+			<packageName>com.google.android.talk</packageName>
+			<className>com.google.android.talk.SigningInActivity</className>
+			<screen>0</screen>
+			<launcher_x>3</launcher_x>
+			<launcher_y>3</launcher_y>
+		 </favorites>
+		 <favorites>
+			<favorite_type>favorite</favorite_type>
+			<packageName>com.samsung.csc.lafleur</packageName>
+			<className>com.samsung.csc.lafleur.activity.Intro</className>
+			<screen>0</screen>
+			<launcher_x>0</launcher_x>
+			<launcher_y>2</launcher_y>
+		 </favorites>		 
+		 <favorites>
+			<favorite_type>appwidget</favorite_type>
+			<packageName>com.sec.android.widgetapp.clockweather.clockwidget</packageName>
+			<className>com.sec.android.widgetapp.clockweather.clockwidget.ClockAllAppWidgetProvider</className>
+			<screen>0</screen>
+			<launcher_x>0</launcher_x>
+			<launcher_y>0</launcher_y>
+			<launcher_spanX>4</launcher_spanX>
+			<launcher_spanY>1</launcher_spanY>
+		 </favorites>		 
+		 <favorites>
+			<favorite_type>search</favorite_type>
+			<packageName>PTNWidgetGoogleSearchProvider</packageName>
+			<className>Google Search</className>
+			<screen>0</screen>
+			<launcher_x>0</launcher_x>
+			<launcher_y>1</launcher_y>
+		 </favorites>
+	</Launcher>
+
+
+</CustomerData>

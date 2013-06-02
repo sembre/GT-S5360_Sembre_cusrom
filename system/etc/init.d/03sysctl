@@ -1,0 +1,6 @@
+#!/system/bin/sh
+#
+# Print WSX-Team Startup Informations
+#
+sysctl -p
+sleep 1

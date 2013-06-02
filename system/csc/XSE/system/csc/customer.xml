@@ -1,0 +1,353 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED003</CSCEdition>
+    <Country>INDONESIA</Country>
+    <CountryISO>ID</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>XSE</SalesCode>
+    <NbNetworkInfo>7</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51001</MCCMNC>
+      <NetworkName>Indosat</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51001</MCCMNC>
+      <NetworkName>Indosat BroadBand</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51021</MCCMNC>
+      <NetworkName>Indosat M3</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51010</MCCMNC>
+      <NetworkName>Telkomsel</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51011</MCCMNC>
+      <NetworkName>XL</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51089</MCCMNC>
+      <NetworkName>3</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51008</MCCMNC>
+      <NetworkName>Axis</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>		<Display>        <NbWallpaper>5</NbWallpaper>		<Wallpaper src="/system/wallpaper/drawable/001_480X320.jpg" width="480" height="320" >          <Position>1</Position>          <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/002_480x320.jpg" width="480" height="320" >          <Position>2</Position>          <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/003_480x320.jpg" width="480" height="320">          <Position>3</Position>           <FileType>JPG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/004_480x320.png" width="480" height="320">          <Position>4</Position>            <FileType>PNG</FileType>        </Wallpaper>				<Wallpaper src="/system/wallpaper/drawable/005_480x320.png" width="480" height="320" >          <Position>5</Position>           <FileType>PNG</FileType>        </Wallpaper>    </Display>
+      <Network>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911, 112</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>indonesia</DefLanguage>
+        <DefLanguageNoSIM>indonesia</DefLanguageNoSIM>
+      </Phone>
+      <Security />
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Connections>
+      <NbProfileHandle>7</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Indosat</NetworkName>
+        <ProfBrowser>ISAT WAP</ProfBrowser>
+        <ProfMMS>ISAT MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Indosat BroadBand</NetworkName>
+        <ProfBrowser>ISAT BB INTERNET</ProfBrowser>
+        <ProfMMS>ISAT BB MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Indosat M3</NetworkName>
+        <ProfBrowser>ISAT M3 INTERNET</ProfBrowser>
+        <ProfMMS>ISAT M3 MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Telkomsel</NetworkName>
+        <ProfBrowser>Telkomsel GPRS WEB</ProfBrowser>
+        <ProfMMS>TSEL MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>XL</NetworkName>
+        <ProfBrowser>XL GPRS</ProfBrowser>
+        <ProfMMS>XL MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>3</NetworkName>
+        <ProfBrowser>3 GPRS</ProfBrowser>
+        <ProfMMS>3 MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Axis</NetworkName>
+        <ProfBrowser>AXISinternet</ProfBrowser>
+        <ProfMMS>AXIS MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>15</NbProfile>
+      <Profile>
+        <NetworkName>Indosat</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ISAT WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>indosatgprs</APN>
+          <UserId>indosat</UserId>
+          <Password>indosat</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Indosat</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ISAT MMS</ProfileName>
+        <URL>http://mmsc.indosat.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.19.19.19</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>indosatmms</APN>
+          <UserId>indosat</UserId>
+          <Password>indosat</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Indosat BroadBand</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ISAT BB INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.19.19.19</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>indosat3g</APN>
+          <UserId>indosat</UserId>
+          <Password>indosat</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Indosat BroadBand</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ISAT BB MMS</ProfileName>
+        <URL>http://mmsc.indosat.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.19.19.19</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>indosatmms</APN>
+          <UserId>indosat</UserId>
+          <Password>indosat</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Indosat M3</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ISAT M3 INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>indosatgprs</APN>
+          <UserId>indosat</UserId>
+          <Password>indosat</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Indosat M3</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ISAT M3 MMS</ProfileName>
+        <URL>http://mmsc.indosat.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.19.19.19</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>indosatmms</APN>
+          <UserId>indosat</UserId>
+          <Password>indosat</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telkomsel</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Telkomsel GPRS WEB</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>wap</UserId>
+          <Password>wap123</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telkomsel</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>TSEL MMS</ProfileName>
+        <URL>http://mms.telkomsel.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.1.89.150</ServAddr>
+          <Port>8000</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>wap</UserId>
+          <Password>wap123</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>XL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>XL GPRS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>www.xlgprs.net</APN>
+          <UserId>xlgprs</UserId>
+          <Password>proxl</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>XL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>XL MMS</ProfileName>
+        <URL>http://mmc.xl.net.id/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>202.152.240.50</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>www.xlmms.net</APN>
+          <UserId>xlgprs</UserId>
+          <Password>proxl</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>3 GPRS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>3gprs</APN>
+          <UserId>3gprs</UserId>
+          <Password>3gprs</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>3 MMS</ProfileName>
+        <URL>http://mms.three.co.id</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.4.0.10</ServAddr>
+          <Port>3128</Port>
+        </Proxy>
+        <PSparam>
+          <APN>3mms</APN>
+          <UserId>3mms</UserId>
+          <Password>3mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Axis</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AXISinternet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>AXIS</APN>
+          <UserId>AXIS</UserId>
+          <Password>123456</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Axis</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AXIS MMS</ProfileName>
+        <URL>http://mmsc.axis</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.8.3.8</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>axismms</APN>
+          <UserId>axis</UserId>
+          <Password>123456</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>XL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>XL Unlimited</ProfileName>
+        <PSparam>
+          <APN>xlunlimited</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

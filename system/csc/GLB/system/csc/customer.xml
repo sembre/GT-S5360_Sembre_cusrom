@@ -1,0 +1,298 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED015</CSCEdition>
+    <Country>PHILIPPINES</Country>
+    <CountryISO>PH</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>GLB</SalesCode>
+    <NbNetworkInfo>2</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51502</MCCMNC>
+      <NetworkName>Globe Postpaid</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51502</MCCMNC>
+      <NetworkName>Globe Prepaid</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <NbNetworkLock>1</NbNetworkLock>
+        <NetworkLock>51502</NetworkLock>
+      </Security>
+      <Network>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911, 112</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>english_philippines</DefLanguage>
+        <DefLanguageNoSIM>english_philippines</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Display>
+        <NbWallpaper>6</NbWallpaper>
+        <Wallpaper src="/Customer/GLB/Wallpaper/Globe 480 x 320.jpg" width="480" height="320">
+          <Position>1</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		<Wallpaper src="/system/wallpaper/drawable/001_480X320.jpg" width="480" height="320" >
+          <Position>2</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/002_480x320.jpg" width="480" height="320" >
+          <Position>3</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/003_480x320.jpg" width="480" height="320">
+          <Position>4</Position> 
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/004_480x320.png" width="480" height="320">
+          <Position>5</Position>  
+          <FileType>PNG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/005_480x320.png" width="480" height="320" >
+          <Position>6</Position> 
+          <FileType>PNG</FileType>
+        </Wallpaper>
+		
+      </Display>
+      <Sound>
+        <NbRingTone>1</NbRingTone>
+        <RingTone src="/Customer/GLB/Ringtone/Globeringtone.mp3">
+          <Position>1</Position>
+          <FileType>MID</FileType>
+        </RingTone>
+      </Sound>
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>24</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Homepage</BookmarkName>
+        <URL>http://m.globe.com.ph</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>New</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/new</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Popular</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/popular</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>My Points &amp; Rewards</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/mypoints</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Promos</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/promos</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Gamezone</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/gamezone</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Music</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/music</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Social Networking</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/social</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Messaging</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/messaging</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Wallpapers</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/wallpapers</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>TV</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/tv</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Videos</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/videos</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Phone Themes</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/themes</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Appzone</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/appzone</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Free Downloads</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/freedownloads</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Mobile Websites</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/msites</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>SMS Services</BookmarkName>
+        <URL>http://wap.portal.globe.com.ph/smsservices</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Facebook</BookmarkName>
+        <URL>http://m.facebook.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Twitter</BookmarkName>
+        <URL>http://m.twitter.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Friendster</BookmarkName>
+        <URL>http://m.friendster.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Plurk</BookmarkName>
+        <URL>http://m.plurk.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Multiply</BookmarkName>
+        <URL>http://www.m.multiply.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Yahoo</BookmarkName>
+        <URL>http://www.m.yahoo.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://m.google.com</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>2</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <ProfBrowser>myGlobe Internet Postpaid</ProfBrowser>
+        <ProfMMS>myGlobe MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <ProfBrowser>myGlobe INET</ProfBrowser>
+        <ProfMMS>myGlobe MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>4</NbProfile>
+      <Profile>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>myGlobe MMS</ProfileName>
+        <URL>http://192.40.100.22:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>203.177.42.214</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.globe.com.ph</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>myGlobe Internet</ProfileName>
+        <URL>http://m.globe.com.ph</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.globe.com.ph</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>myGlobe INET</ProfileName>
+        <URL>http://m.globe.com.ph</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>http.globe.com.ph</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>myGlobe MMS</ProfileName>
+        <URL>http://192.40.100.22:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>203.177.42.214</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.globe.com.ph</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

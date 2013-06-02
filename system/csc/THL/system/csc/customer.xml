@@ -1,0 +1,289 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED008</CSCEdition>
+    <Country>THAILAND</Country>
+    <SalesCode>THL</SalesCode>
+    <NbNetworkInfo>5</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52001</MCCMNC>
+      <NetworkName>TH GSM</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52018</MCCMNC>
+      <NetworkName>DTAC</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52099</MCCMNC>
+      <NetworkName>TRUE</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52000</MCCMNC>
+      <NetworkName>True Move H</NetworkName>
+      <SPCode>20</SPCode>
+      <SPName>TRUE-H</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52000</MCCMNC>
+      <NetworkName>CAT 3G</NetworkName>
+      <SPCode>19</SPCode>
+      <SPName>CAT 3G</SPName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+	
+	<Display>
+        <NbWallpaper>5</NbWallpaper>
+		<Wallpaper src="/system/wallpaper/drawable/001_480X320.jpg" width="480" height="320" >
+          <Position>1</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/002_480x320.jpg" width="480" height="320" >
+          <Position>2</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/003_480x320.jpg" width="480" height="320">
+          <Position>3</Position> 
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/004_480x320.png" width="480" height="320">
+          <Position>4</Position>  
+          <FileType>PNG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/005_480x320.png" width="480" height="320" >
+          <Position>5</Position> 
+          <FileType>PNG</FileType>
+        </Wallpaper>
+    </Display>
+	
+      <Network>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911, 112</SOSNumber>
+        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>08, 112, 110, 118, 119, 911, 999, 000</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>thai</DefLanguage>
+        <DefLanguageNoSIM>thai</DefLanguageNoSIM>
+      </Phone>
+      <Security />
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Connections>
+      <NbProfileHandle>5</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>TH GSM</NetworkName>
+        <ProfBrowser>AIS Internet</ProfBrowser>
+        <ProfMMS>AIS MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>DTAC</NetworkName>
+        <ProfBrowser>DTAC Internet</ProfBrowser>
+        <ProfMMS>DTAC MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>TRUE</NetworkName>
+        <ProfBrowser>True GPRS Inet</ProfBrowser>
+        <ProfMMS>True GPRS MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>True Move H</NetworkName>
+        <ProfBrowser>TRUE-H INTERNET</ProfBrowser>
+        <ProfMMS>TRUE-H MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CAT 3G</NetworkName>
+        <ProfBrowser>CAT3G INTERNET</ProfBrowser>
+        <ProfMMS>CAT3G MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>10</NbProfile>
+      <Profile>
+        <NetworkName>TH GSM</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AIS MMS</ProfileName>
+        <URL>http://mms.mobilelife.co.th</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>203.170.229.34</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>multimedia</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TH GSM</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AIS Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>DTAC</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>DTAC MMS</ProfileName>
+        <URL>http://mms.dtac.co.th:8002/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>203.155.200.133</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>DTAC</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>DTAC Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>www.dtac.co.th</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TRUE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>True GPRS MMS</ProfileName>
+        <URL>http://mms.trueworld.net:8002/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.4.7.39</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>true</UserId>
+          <Password>true</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TRUE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>True GPRS Inet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>true</UserId>
+          <Password>true</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>True Move H</NetworkName>
+        <ProfileName>TRUE-H INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>true</UserId>
+          <Password>true</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>True Move H</NetworkName>
+        <ProfileName>TRUE-H MMS</ProfileName>
+        <URL>http://mms.trueh.com:8002/</URL>
+        <Auth>normal</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>010.004.007.039</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>hmms</APN>
+          <UserId>true</UserId>
+          <Password>true</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CAT 3G</NetworkName>
+        <ProfileName>CAT3G INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CAT 3G</NetworkName>
+        <ProfileName>CAT3G MMS</ProfileName>
+        <URL>http://mms.cat3g.com:8002/</URL>
+        <Auth>normal</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>010.004.007.039</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>catmms</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

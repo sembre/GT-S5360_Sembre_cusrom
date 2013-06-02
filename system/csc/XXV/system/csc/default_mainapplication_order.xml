@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomerData>
+	<Launcher>
+
+<mainapps>
+    <packageName>com.android.deskclock</packageName>
+    <className>com.android.deskclock.DeskClock</className>
+</mainapps>
+<mainapps>
+    <packageName>com.android.calendar</packageName>
+    <className>com.android.calendar.LaunchActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.cooliris.media</packageName>
+    <className>com.cooliris.media.Gallery</className>
+</mainapps>
+<mainapps>
+    <packageName>com.sec.android.app.memo</packageName>
+    <className>com.sec.android.app.memo.Memo</className>
+</mainapps>
+<mainapps>
+    <packageName>com.sec.android.app.camera</packageName>
+    <className>com.sec.android.app.camera.Camera</className>
+</mainapps>
+<mainapps>
+    <packageName>com.android.browser</packageName>
+    <className>com.android.browser.BrowserActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.android.vending</packageName>
+    <className>com.android.vending.AssetBrowserActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.android.music</packageName>
+    <className>com.android.music.MusicBrowserActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.gm</packageName>
+    <className>com.google.android.gm.ConversationListActivityGmail</className>
+</mainapps>
+<mainapps>
+    <packageName>com.android.email</packageName>
+    <className>com.android.email.activity.Welcome</className>
+</mainapps>
+<mainapps>
+    <packageName>com.samsung.app.fmradio</packageName>
+    <className>com.samsung.app.fmradio.FmRadioPlaybackActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.android.settings</packageName>
+    <className>com.android.settings.Settings</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.googlequicksearchbox</packageName>
+    <className>com.google.android.googlequicksearchbox.SearchActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.sec.android.app.unifiedinbox</packageName>
+    <className>com.sec.android.app.unifiedinbox.UinboxList</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.apps.maps</packageName>
+    <className>com.google.android.maps.MapsActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.youtube</packageName>
+    <className>com.google.android.youtube.HomeActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.talk</packageName>
+    <className>com.google.android.talk.SigningInActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.apps.maps</packageName>
+    <className>com.google.android.maps.LatitudeActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.apps.maps</packageName>
+    <className>com.google.android.maps.driveabout.app.DestinationActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.apps.maps</packageName>
+    <className>com.google.android.maps.PlacesActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.voicesearch</packageName>
+    <className>com.google.android.voicesearch.RecognitionActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.google.android.apps.genie.geniewidget</packageName>
+    <className>com.google.android.apps.genie.geniewidget.activities.NewsActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.sec.android.app.myfiles</packageName>
+    <className>com.sec.android.app.myfiles.MainActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.sec.android.app.samsungapps</packageName>
+    <className>com.sec.android.app.samsungapps.Main</className>
+</mainapps>
+<mainapps>
+    <packageName>com.sec.android.app.controlpanel</packageName>
+    <className>com.sec.android.app.controlpanel.activity.JobManagerActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.android.calculator2</packageName>
+    <className>com.android.calculator2.Calculator</className>
+</mainapps>
+<mainapps>
+    <packageName>com.sec.android.app.voicerecorder</packageName>
+    <className>com.sec.android.app.voicerecorder.VoiceRecorder</className>
+</mainapps>
+<mainapps>
+    <packageName>com.android.providers.downloads.ui</packageName>
+    <className>com.android.providers.downloads.ui.DownloadsListTab</className>
+</mainapps>
+<mainapps>
+    <packageName>com.qo.android.spvc</packageName>
+    <className>com.qo.android.quickoffice.QuickofficeDispatcher</className>
+</mainapps>
+<mainapps>
+    <packageName>me.zing.vn</packageName>
+    <className>me.zing.vn.SplashScreenMeActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.zing.zingnews</packageName>
+    <className>com.zing.zingnews.ZingNews</className>
+</mainapps>
+<mainapps>
+    <packageName>mp3.zing.vn</packageName>
+    <className>mp3.zing.vn.SplashScreen</className>
+</mainapps>
+<mainapps>
+    <packageName>com.tencent.mttvietnam</packageName>
+    <className>com.tencent.mttvietnam.MainActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>vng.wcc.minigame.fruit</packageName>
+    <className>vng.wcc.minigame.fruit.MainActivity</className>
+</mainapps>
+<mainapps>
+    <packageName>com.NTVV2</packageName>
+    <className>com.NTVV2.NTVV2</className>
+</mainapps>
+	</Launcher>
+</CustomerData>

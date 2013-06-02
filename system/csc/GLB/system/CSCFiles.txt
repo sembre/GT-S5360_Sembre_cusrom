@@ -1,0 +1,10 @@
+/system/csc/GLB/system/media/audio/ringtones/Globeringtone.mp3
+/system/csc/GLB/system/CSCFiles.txt
+/system/csc/GLB/system/csc/customer.xml
+/system/csc/GLB/system/csc/sales_code.dat
+/system/csc/GLB/system/csc/contents.db
+/system/csc/GLB/system/csc/others.xml
+/system/csc/GLB/system/wallpaper/drawable/Globe 480 x 320_small.jpg
+/system/csc/GLB/system/wallpaper/drawable/Globe 480 x 320.jpg
+/system/csc/GLB/system/wallpaper/default_wallpaper/default_wallpaper.jpg
+/system/csc/GLB/system/CSCVersion.txt

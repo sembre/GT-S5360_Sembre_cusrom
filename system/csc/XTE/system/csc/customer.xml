@@ -1,0 +1,152 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED009</CSCEdition>
+    <Country>PHILIPPINES</Country>
+    <CountryISO>PH</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>XTE</SalesCode>
+    <NbNetworkInfo>1</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51505</MCCMNC>
+      <NetworkName>SUN</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+	  <Security>
+        <NbNetworkLock>3</NbNetworkLock>
+        <NetworkLock>51518</NetworkLock>
+        <NetworkLock>51505</NetworkLock>
+        <NetworkLock>51503</NetworkLock>
+      </Security>
+      <Network>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911, 112</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>english_philippines</DefLanguage>
+        <DefLanguageNoSIM>english_philippines</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Display>
+        <NbWallpaper>6</NbWallpaper>
+        <Wallpaper src="/Customer/XTE/Wallpaper/Sun 480 x 320.jpg" width="480" height="320">
+          <Position>1</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/001_480X320.jpg" width="480" height="320" >
+          <Position>2</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/002_480x320.jpg" width="480" height="320" >
+          <Position>3</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/003_480x320.jpg" width="480" height="320">
+          <Position>4</Position> 
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/004_480x320.png" width="480" height="320">
+          <Position>5</Position>  
+          <FileType>PNG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/005_480x320.png" width="480" height="320" >
+          <Position>6</Position> 
+          <FileType>PNG</FileType>
+        </Wallpaper>
+    
+		
+      </Display>
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>manual</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>3</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Samsung Apps</BookmarkName>
+        <URL>http://m.ph.samsungapps.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google Search</BookmarkName>
+        <URL>http://www.google.com/xhtml</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google Mail</BookmarkName>
+        <URL>http://mail.google.com/mail/x/</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>1</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SUN</NetworkName>
+        <ProfBrowser>SUN INTERNET</ProfBrowser>
+        <ProfMMS>SUN MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>2</NbProfile>
+      <Profile>
+        <NetworkName>SUN</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>SUN MMS</ProfileName>
+        <URL>http://mmscenter.suncellular.com.ph</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>202.138.159.78</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SUN</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>SUN INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>minternet</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

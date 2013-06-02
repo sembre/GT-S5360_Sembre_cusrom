@@ -1,0 +1,291 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED002</CSCEdition>
+    <Country>VIETNAM</Country>
+    <SalesCode>XEV</SalesCode>
+    <NbNetworkInfo>5</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45201</MCCMNC>
+      <NetworkName>VN MOBIFONE</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45202</MCCMNC>
+      <NetworkName>VINAPHONE</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45205</MCCMNC>
+      <NetworkName>VIETNAMOBILE</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45204</MCCMNC>
+      <NetworkName>VIETTEL</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45207</MCCMNC>
+      <NetworkName>BEELINE</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+	
+	<Display>
+        <NbWallpaper>5</NbWallpaper>
+		<Wallpaper src="/system/wallpaper/drawable/001_480X320.jpg" width="480" height="320" >
+          <Position>1</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/002_480x320.jpg" width="480" height="320" >
+          <Position>2</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/003_480x320.jpg" width="480" height="320">
+          <Position>3</Position> 
+          <FileType>JPG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/004_480x320.png" width="480" height="320">
+          <Position>4</Position>  
+          <FileType>PNG</FileType>
+        </Wallpaper>
+		
+		<Wallpaper src="/system/wallpaper/drawable/005_480x320.png" width="480" height="320" >
+          <Position>5</Position> 
+          <FileType>PNG</FileType>
+        </Wallpaper>
+    </Display>
+	
+      <Network>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911, 112</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>vietnamese</DefLanguage>
+        <DefLanguageNoSIM>vietnamese</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Security />
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Connections>
+      <NbProfileHandle>5</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>VN MOBIFONE</NetworkName>
+        <ProfBrowser>VN MOBIFONE Email</ProfBrowser>
+        <ProfMMS>VN MOBIFONE MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>VINAPHONE</NetworkName>
+        <ProfBrowser>Vinaphone Email</ProfBrowser>
+        <ProfMMS>Vinaphone MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>VIETTEL</NetworkName>
+        <ProfBrowser>Viettel Email</ProfBrowser>
+        <ProfMMS>Viettel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>VIETNAMOBILE</NetworkName>
+        <ProfBrowser>Vietnamobile Email</ProfBrowser>
+        <ProfMMS>Vietnamobile MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>BEELINE</NetworkName>
+        <ProfBrowser>BEELINE Email</ProfBrowser>
+        <ProfMMS>BEELINE MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>10</NbProfile>
+      <Profile>
+        <NetworkName>VN MOBIFONE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VN MOBIFONE MMS</ProfileName>
+        <URL>http://203.162.21.114/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>203.162.21.114</ServAddr>
+          <Port>3130</Port>
+        </Proxy>
+        <PSparam>
+          <APN>m-i090</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN MOBIFONE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VN MOBIFONE Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>m-wap</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BEELINE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>BEELINE MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.16.70.199</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VINAPHONE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vinaphone MMS</ProfileName>
+        <URL>http://mms.vinaphone.com.vn</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.1.10.46</ServAddr>
+          <Port>8000</Port>
+        </Proxy>
+        <PSparam>
+          <APN>m3-mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VINAPHONE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vinaphone Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>m3-world</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BEELINE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>BEELINE Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIETTEL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Viettel MMS</ProfileName>
+        <URL>http://mms.viettelmobile.com.vn/mms/wapenc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.233.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>v-mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIETTEL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Viettel Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>v-internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIETNAMOBILE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vietnamobile MMS</ProfileName>
+        <URL>http://10.10.128.58/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>010.010.128.044</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIETNAMOBILE</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vietnamobile Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

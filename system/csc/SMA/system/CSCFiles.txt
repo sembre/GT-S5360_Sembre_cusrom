@@ -1,0 +1,11 @@
+/system/csc/SMA/system/media/audio/ringtones/NETPHONERINGTONE.mp3
+/system/csc/SMA/system/media/audio/notifications/NETPHONEMESSAGEALERT.mp3
+/system/csc/SMA/system/CSCFiles.txt
+/system/csc/SMA/system/csc/customer.xml
+/system/csc/SMA/system/csc/sales_code.dat
+/system/csc/SMA/system/csc/contents.db
+/system/csc/SMA/system/csc/others.xml
+/system/csc/SMA/system/wallpaper/drawable/new smart 480 x 320.jpg
+/system/csc/SMA/system/wallpaper/drawable/new smart 480 x 320_small.jpg
+/system/csc/SMA/system/wallpaper/default_wallpaper/default_wallpaper.jpg
+/system/csc/SMA/system/CSCVersion.txt
