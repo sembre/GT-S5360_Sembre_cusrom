@@ -1,4 +1,6 @@
 #!/system/bin/sh
 #
-# Print WSX-Team Startup Informations
+# Print  disable fsync for better battery and better disk i/o performance
 #
+
+echo 0 > /sys/class/misc/fsynccontrol/fsync_enabled
